@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FAF7F2;
+  --color-forest: #2D5A27;
+  --color-gold: #C9A050;
+  --color-charcoal: #2C2C2C;
+  --color-warm-brown: #8B6914;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #FAF7F2;
+}
+
+/* Custom scrollbar for luxury feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C9A050;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8B6914;
+}
