@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { Heart, Shield, Sparkles } from 'lucide-react'
+import { Heart, Shield } from 'lucide-react'
 import { supabase } from '../../lib/supabase'
 import SectionHeader from '../ui/SectionHeader'
 import CTAButton from '../ui/CTAButton'
